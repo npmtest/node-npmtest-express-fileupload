@@ -1,6 +1,6 @@
 # npmtest-express-fileupload
 
-#### test coverage for  [express-fileupload (v0.1.2)](https://github.com/richardgirges/express-fileupload#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-fileupload.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-fileupload) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-fileupload.svg)](https://travis-ci.org/npmtest/node-npmtest-express-fileupload)
+#### basic test coverage for  [express-fileupload (v0.1.2)](https://github.com/richardgirges/express-fileupload#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-fileupload.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-fileupload) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-fileupload.svg)](https://travis-ci.org/npmtest/node-npmtest-express-fileupload)
 
 #### Simple express file upload middleware that wraps around Busboy
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-fileupload/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-fileupload/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-fileupload/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-fileupload/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-fileupload/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-fileupload/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-fileupload/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-fileupload/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-fileupload/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-fileupload/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-fileupload/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-fileupload/build/coverage.html/index.html)
 
@@ -95,7 +95,8 @@
         "lint": "eslint ./",
         "test": "istanbul cover _mocha -- -R spec"
     },
-    "version": "0.1.2"
+    "version": "0.1.2",
+    "bin": {}
 }
 ```
 
